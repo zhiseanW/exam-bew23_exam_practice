@@ -22,11 +22,7 @@ function Filters(props) {
         <h4>Search Type</h4>
         <div>
           <select value={type} onChange={(e) => onTypeChange(e.target.value)}>
-            <option
-            // value={"all"}
-            >
-              All
-            </option>
+            <option value={"all"}>All</option>
             {types.map((type) => (
               <option key={type} value={type}>
                 {type}

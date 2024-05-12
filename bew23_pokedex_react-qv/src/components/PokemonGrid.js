@@ -25,9 +25,10 @@ function PokemonGrid(props) {
       {/* INSTRUCTION: if pokemons data is available, display the pokemons in a 3-columns grid. if not, display a "No pokemons found." message */}
       {pokemons.length > 0 ? (
         pokemons.map((p) => (
-          <div key={p.name}>
+          <div>
             <div
               //  key={p._id}
+              key={p.name}
               style={{
                 backgroundColor: "lightgray",
                 padding: "10px",
