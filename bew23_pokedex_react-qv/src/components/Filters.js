@@ -25,7 +25,7 @@ function Filters(props) {
             <option
             // value={"all"}
             >
-              Choose Type
+              All
             </option>
             {types.map((type) => (
               <option key={type} value={type}>

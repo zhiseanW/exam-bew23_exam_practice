@@ -27,7 +27,12 @@ function PokemonGrid(props) {
         pokemons.map((p) => (
           <div key={p.name}>
             <div
-            //  key={p._id}
+              //  key={p._id}
+              style={{
+                backgroundColor: "lightgray",
+                padding: "10px",
+                borderRadius: "3px",
+              }}
             >
               <div>
                 <h2>{p.name}</h2>
